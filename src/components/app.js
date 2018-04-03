@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SantasForm from './santas_form';
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
               Fill out the fields below and click the generate button<br/>to see Santa's Letter
             </div>
           </div>
+          <SantasForm/>
         </div>
       </div>
     );
